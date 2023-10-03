@@ -1,0 +1,29 @@
+.pagination{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+#curr_page{
+  border: 2px solid black;
+  font-size: 2rem;
+  padding: 2px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.pre,.nex{
+    margin-inline: 2px;
+    font-size:2rem;
+    cursor: pointer;
+}
+.pagination_disable{
+    visibility: hidden;
+}
+.page_selected{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+}
+.results{
+    padding: 1.2rem;
+}

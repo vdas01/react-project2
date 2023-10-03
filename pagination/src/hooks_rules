@@ -1,0 +1,4 @@
+1) You must import Hooks from react
+2)Hooks can only be called inside React function components
+3)Hooks can only be called at top level of a compoenent
+4)Hooks cannot be conditional
